@@ -4,6 +4,6 @@ public class Pump implements Gas{
 
     @Override
     public double getPrice(double g) {
-        return g * pricePerGallon;
+        return g * PRICE_PER_GALLON;
     }
 }
